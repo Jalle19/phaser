@@ -114,12 +114,10 @@ public class Node extends Publisher implements Debuggable, EntityListener {
 		}
 	}
 
-	@Override
 	public void onEntityRemove(Event event) {
 		removeNode((Node) event.getSource());
 	}
 
-	@Override
 	public void debug(Debuggable parent, Canvas canvas) {
 		for (int i = 0, len = children.size(); i < len; i++) {
 			children.get(i).debug(this, canvas);

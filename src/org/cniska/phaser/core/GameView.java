@@ -141,18 +141,15 @@ public abstract class GameView extends SurfaceView implements SurfaceHolder.Call
 	// Interface methods
 	// ----------------------------------------
 
-    @Override
     public void surfaceCreated(SurfaceHolder holder) {
         start();
         Logger.info(getClass().getCanonicalName(), "Surface created.");
     }
 
-    @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
         // Nothing for now ...
     }
 
-    @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
         Logger.info(getClass().getCanonicalName(), "Surface destroyed.");
         stop();

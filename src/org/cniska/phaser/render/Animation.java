@@ -82,7 +82,6 @@ public class Animation implements Updateable {
 		return playTime >= totalTime;
 	}
 
-	@Override
 	public void update(Updateable parent) {
 		frames.update(this);
 

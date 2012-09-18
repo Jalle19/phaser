@@ -104,7 +104,6 @@ public class Map<K, V> implements Updateable {
 	// Overridden methods
 	// ----------------------------------------
 
-	@Override
 	public void update(Updateable parent) {
 		applyChanges();
 	}

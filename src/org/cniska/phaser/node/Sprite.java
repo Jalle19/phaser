@@ -96,7 +96,6 @@ public abstract class Sprite extends Entity implements Drawable {
 		}
 	}
 
-	@Override
 	public void draw(Canvas canvas) {
 		if (visible && bitmap != null) {
 			Rect src = new Rect(ox(), oy(), ox() + width, oy() + height);

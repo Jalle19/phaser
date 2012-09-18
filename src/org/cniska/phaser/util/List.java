@@ -110,7 +110,6 @@ public class List<E> implements Updateable {
 	// Overridden methods
 	// ----------------------------------------
 
-	@Override
 	public void update(Updateable parent) {
 		applyChanges();
 	}

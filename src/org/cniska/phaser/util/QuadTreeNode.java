@@ -125,7 +125,6 @@ public class QuadTreeNode implements Debuggable {
 		return y + height;
 	}
 
-	@Override
 	public void debug(Debuggable parent, Canvas canvas) {
 		Paint paint = new Paint();
 		paint.setColor(Color.DKGRAY);

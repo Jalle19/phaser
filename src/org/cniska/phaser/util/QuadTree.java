@@ -25,7 +25,6 @@ public class QuadTree implements Debuggable {
 		treeRoot.flush();
 	}
 
-	@Override
 	public void debug(Debuggable parent, Canvas canvas) {
 		treeRoot.debug(this, canvas);
 	}

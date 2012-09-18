@@ -92,7 +92,6 @@ public class Player extends Ship implements TouchListener {
 		return other instanceof Torpedo && intersects(other);
 	}
 
-	@Override
 	public void onTouch(MotionEvent event) {
 	    this.touch = event;
 	}

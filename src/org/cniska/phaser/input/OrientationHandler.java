@@ -32,7 +32,6 @@ public class OrientationHandler extends Node implements SensorEventListener {
         }
     }
 
-    @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         switch (sensorEvent.sensor.getType()) {
             case Sensor.TYPE_ACCELEROMETER:
@@ -45,7 +44,6 @@ public class OrientationHandler extends Node implements SensorEventListener {
         }
     }
 
-    @Override
     public void onAccuracyChanged(Sensor sensor, int i) {
     }
 }

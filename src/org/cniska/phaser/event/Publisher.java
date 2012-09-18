@@ -41,7 +41,6 @@ public abstract class Publisher implements Updateable {
 	// Overridden methods
 	// ----------------------------------------
 
-	@Override
 	public void update(Updateable parent) {
 		subscribers.update(this);
 	}

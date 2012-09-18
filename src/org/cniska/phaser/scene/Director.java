@@ -66,7 +66,6 @@ public class Director extends Node implements Renderer {
 		}
 	}
 
-	@Override
 	public void render(Canvas canvas) {
 		if (currentScene != null) {
 			SpriteRenderer renderer = currentScene.getRenderer();

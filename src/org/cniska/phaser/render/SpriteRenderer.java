@@ -86,7 +86,6 @@ public class SpriteRenderer extends Node implements Renderer, EntityListener {
 
 	protected class zIndexComparator implements Comparator<Sprite> {
 
-		@Override
 		public int compare(Sprite lhs, Sprite rhs) {
 			return lhs.getzIndex() - rhs.getzIndex();
 		}

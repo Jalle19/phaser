@@ -159,7 +159,6 @@ public abstract class Actor extends Sprite implements Collidable, QuadTreeable {
 		}
 	}
 
-	@Override
 	public void onCollision(Event event) {
 	}
 

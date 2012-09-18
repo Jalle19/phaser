@@ -35,7 +35,6 @@ public class GameLoop implements Runnable {
 		this.view = view;
     }
 
-    @Override
     public void run() {
 		long lastTime, afterTime, elapsedTime, sleepTime;
 		long overTime = 0L;
