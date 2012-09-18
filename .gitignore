@@ -1,3 +1,7 @@
 /.idea/*
 /gen/*
 /out/*
+.classpath
+.project
+.settings/
+/bin
